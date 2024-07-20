@@ -90,7 +90,7 @@
 }
 
 ::selection {
-  background-color: var(--vp-button-brand-bg);
+  background-color: #0f2c47;
 }
 
 .VPFooter a {

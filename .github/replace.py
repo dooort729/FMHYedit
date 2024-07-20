@@ -188,7 +188,11 @@ def replace_pages(text):
         "/audio-tools",
         text,
     )
-
+    text = re.sub(
+        "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools",
+        "/gaming-tools",
+        text,
+    )
     text = re.sub(
         "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video",
         "/videopiracyguide",
